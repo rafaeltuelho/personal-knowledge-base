@@ -11,7 +11,8 @@ inspired by alex gallego and karpathy's wikis. designed to stay LLM-friendly.
 ```
 index.md           ← global nav map — update this every session
 CHANGELOG.md       ← what changed and when
-CLAUDE.md          ← naming conventions for AI agents
+AGENTS.md          ← naming conventions for AI agents (standard agent instructions)
+CLAUDE.md          ← imports AGENTS.md for Claude Code
 notes/             ← atomic notes, daily captures, meeting notes
 projects/          ← active work, goals, initiatives
 resources/         ← books, papers, links, references
@@ -24,7 +25,7 @@ areas/             ← ongoing life domains (health, finance, learning)
 
 **1. Date-prefix all files.**
 Every note starts with `YYYY-MM-DD-`: `2026-04-13-idea-for-blog-post.md`
-Exceptions: `README.md`, `CHANGELOG.md`, `index.md`, `CLAUDE.md`
+Exceptions: `README.md`, `CHANGELOG.md`, `index.md`, `AGENTS.md`, `CLAUDE.md`
 
 **2. Hyphens, not underscores.**
 `my-meeting-notes.md` ✅ &nbsp; `my_meeting_notes.md` ❌
